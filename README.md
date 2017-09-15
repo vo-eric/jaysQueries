@@ -17,3 +17,7 @@ jaysQueries is a lightweight DOM manipulation library inspired by jQuery
 `find(argument)` returns a `DOMNodeCollection` of all child nodes matching the argument
 
 `remove()` removes each element from the DOM
+
+`on(event, callback)` places an event listener on each element in the `DOMNodeCollection` with the callback
+
+`off(event)` removes the event handler from every element in the `DOMNodeCollection`
