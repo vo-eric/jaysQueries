@@ -1,8 +1,8 @@
-#jaysQueries
+# jaysQueries
 
 jaysQueries is a lightweight DOM manipulation library inspired by jQuery
 
-##Functions
+## Functions
 
 `.html(string)` sets the argument, if provided, to become the `innerHTML` of each of the nodes. If an argument is not provided, it will return the `innerHTML` of the first node
 
