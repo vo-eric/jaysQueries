@@ -1,0 +1,20 @@
+{
+  "name": "jaysQueries",
+  "version": "1.0.0",
+  "description": "jaysQueries is a lightweight DOM manipulation library inspired by jQuery",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vo-eric/jaysQueries.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vo-eric/jaysQueries/issues"
+  },
+  "homepage": "https://github.com/vo-eric/jaysQueries#readme"
+}

@@ -3,7 +3,7 @@ class Snake {
     const center = new Coord(Math.floor(board.size / 2), Math.floor(board.size / 2));
 
     this.board = board;
-    this.direction = "E";
+    this.direction = "N";
     this.segments = [center];
     this.isTurning = false;
   }
@@ -21,10 +21,13 @@ class Snake {
     }
   }
 
-  Snake.MOVES = {
-    "N": new Coord(-1, 0),
-    "E": new Coord(0, 1),
-    "W": new Coord(0, -1),
-    "S": new COord(1, 0)
-  };
 }
+
+Snake.MOVES = {
+  "N": new Coord(-1, 0),
+  "E": new Coord(0, 1),
+  "W": new Coord(0, -1),
+  "S": new COord(1, 0)
+};
+
+module.exports = Snake;
